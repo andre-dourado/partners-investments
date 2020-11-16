@@ -1,13 +1,13 @@
 import React from 'react';
 import { BiMenuAltLeft, BiMoon, BiBell } from 'react-icons/bi';
 
-import Avatar from '../../../../assets/avatar.png';
+import Avatar from '../../../assets/avatar.png';
 
-import MenuButton from '../../../../components/Button';
-import ThemeButton from '../../../../components/Button';
-import NotificationButton from '../../../../components/Button';
-import DropdownCurrency from '../../../../components/Dropdown';
-import DropdownLanguage from '../../../../components/Dropdown';
+import MenuButton from '../../../components/Button';
+import ThemeButton from '../../../components/Button';
+import NotificationButton from '../../../components/Button';
+import DropdownCurrency from '../../../components/Dropdown';
+import DropdownLanguage from '../../../components/Dropdown';
 
 import {
   Container,
