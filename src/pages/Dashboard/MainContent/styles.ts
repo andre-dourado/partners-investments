@@ -4,6 +4,7 @@ export const Container = styled.main`
   display: flex;
   flex-direction: column;
   padding: 28px 38px 32px;
+  min-height: fit-content;
 `;
 
 export const WelcomeContainer = styled.div`
@@ -32,14 +33,16 @@ export const CenterContentContainer = styled.div`
   margin-top: 22px;
 `;
 
-export const CardsContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
 export const RightContainer = styled.div`
   display: flex;
+  height: fit-content;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 22px;
+`;
+
+export const CardsContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  min-height: fit-content;
 `;

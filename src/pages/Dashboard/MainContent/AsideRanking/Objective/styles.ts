@@ -13,6 +13,7 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   align-items: flex-start;
 
+  min-height: fit-content;
   height: 80px;
   width: 100%;
   padding: 8px 14px 8px 8px;

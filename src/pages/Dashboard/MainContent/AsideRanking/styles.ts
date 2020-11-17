@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
   width: 306px;
+
   background: #3d404c;
   border-radius: 18px;
   padding: 24px;
@@ -62,7 +64,7 @@ export const Divider = styled.hr`
 export const List = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: space-between;
-  height: 100%;
   margin-top: 14px;
 `;
