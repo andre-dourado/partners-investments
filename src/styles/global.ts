@@ -14,8 +14,15 @@ export default createGlobalStyle`
 
   body {
     background: #2a2d3a;
-    font-family: 'Poppins', sans-serif;
     color: #fff;
+  }
+
+  body, input, button, h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
   }
 
   button {
