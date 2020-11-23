@@ -3,26 +3,29 @@ import { BiExit } from 'react-icons/bi';
 
 import { SIDE_BAR_NAVIGATION } from '../../../constants';
 
+import LogoImg from '../../../assets/logo.svg';
+
 import MenuItem from './MenuItem';
-import { Container, Logo, MenuList } from './styles';
+import { Container, MenuList, Logo } from './styles';
 
 const SideBar: React.FC = () => {
   return (
     <Container>
-      <Logo>
-        <h1>Partners</h1>
-        <p>
-          <span>Ü</span>Need Group
-        </p>
-      </Logo>
+      <Logo src={LogoImg} alt="logo" />
 
       <MenuList>
         {Object.entries(SIDE_BAR_NAVIGATION).map(([key, value]) => (
-          <MenuItem key={key} icon={value.icon} sectionName={key} />
+          <MenuItem
+            key={key}
+            icon={value.icon}
+            itemName={key}
+            isSelected={value.isSelected}
+            isAccordion={value.isAccordion}
+          />
         ))}
       </MenuList>
 
-      <MenuItem icon={<BiExit />} sectionName="Log Out" />
+      <MenuItem icon={<BiExit />} itemName="Log Out" />
     </Container>
   );
 };

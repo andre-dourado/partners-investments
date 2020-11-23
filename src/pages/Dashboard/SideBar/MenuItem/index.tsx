@@ -1,17 +1,29 @@
 import React from 'react';
+import { BiCaretDown } from 'react-icons/bi';
 
-import { Container, Icon } from './styles';
+import { Container, NameContainer, Icon } from './styles';
 
 interface MenuItemProps {
   icon: React.ReactNode;
-  sectionName: string;
+  itemName: string;
+  isSelected?: boolean;
+  isAccordion?: boolean;
 }
 
-const MenuItem: React.FC<MenuItemProps> = ({ icon, sectionName }) => {
+const MenuItem: React.FC<MenuItemProps> = ({
+  icon,
+  itemName,
+  isSelected,
+  isAccordion,
+}) => {
   return (
-    <Container>
-      <Icon>{icon}</Icon>
-      {sectionName}
+    <Container isSelected={!!isSelected}>
+      <NameContainer>
+        <Icon>{icon}</Icon>
+        {itemName}
+      </NameContainer>
+
+      {isAccordion && <BiCaretDown />}
     </Container>
   );
 };

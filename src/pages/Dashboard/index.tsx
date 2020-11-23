@@ -1,13 +1,15 @@
 import React from 'react';
 
+import SideBar from './SideBar';
 import MainContent from './MainContent';
+import TopNavigation from './TopNavigation';
 
 import { Container, CenterContainer } from './styles';
-import TopNavigation from './TopNavigation';
 
 const Dashboard: React.FC = () => {
   return (
-    <Container>
+    <Container style={{ justifyContent: 'flex-start' }}>
+      <SideBar />
       <CenterContainer>
         <TopNavigation />
         <MainContent />

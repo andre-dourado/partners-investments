@@ -5,31 +5,15 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  height: 100%;
-  width: 200px;
-  border-right: solid 2px #474c60;
+  position: relative;
+  padding: 38px 22px 0 38px;
+  height: 874px;
+  min-width: 232px;
+  border-right: solid 2px #383a45;
 `;
 
-export const Logo = styled.div`
-  padding: 36px 0 0 32px;
-  text-transform: uppercase;
-
-  h1 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 1;
-  }
-
-  p {
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: -0.7px;
-
-    span {
-      color: #a55feb;
-    }
-  }
+export const Logo = styled.img`
+  width: fit-content;
 `;
 
 export const MenuList = styled.div`
