@@ -40,9 +40,3 @@ export const RightContainer = styled.div`
   justify-content: space-between;
   margin-left: 22px;
 `;
-
-export const CardsContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  min-height: fit-content;
-`;
