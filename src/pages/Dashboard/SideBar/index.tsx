@@ -1,9 +1,9 @@
 import React from 'react';
 import { BiExit } from 'react-icons/bi';
 
-import { SIDE_BAR_NAVIGATION } from '../../../constants';
+import { SIDE_BAR_NAVIGATION } from 'src/constants';
 
-import LogoImg from '../../../assets/logo.svg';
+import LogoImg from 'src/assets/logo.svg';
 
 import MenuItem from './MenuItem';
 import { Container, MenuList, Logo } from './styles';

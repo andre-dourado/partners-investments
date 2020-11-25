@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Thumb1Img from '../../../../assets/thumb1.jpg';
-import Thumb2Img from '../../../../assets/thumb2.jpg';
+import Thumb1Img from 'src/assets/thumb1.jpg';
+import Thumb2Img from 'src/assets/thumb2.jpg';
 
 import {
   Container,

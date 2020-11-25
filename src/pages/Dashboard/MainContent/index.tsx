@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CalendarButton from '../../../components/CalendarButton';
+import CalendarButton from 'src/components/CalendarButton';
 import AsideRanking from './AsideRanking';
 import EarningCards from './EarningCards';
 import Events from './Events';

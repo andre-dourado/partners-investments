@@ -1,11 +1,11 @@
 import React from 'react';
 import { BiHelpCircle } from 'react-icons/bi';
 
-import NewbieMedalImg from '../../../../assets/newbie-medal.png';
-import ProfessionalMedalImg from '../../../../assets/professional-medal.png';
-import HardMedalImg from '../../../../assets/hard-medal.png';
-import NoviceMedalImg from '../../../../assets/novice-medal.png';
-import ExpertMedalImg from '../../../../assets/expert-medal.png';
+import NewbieMedalImg from 'src/assets/newbie-medal.png';
+import ProfessionalMedalImg from 'src/assets/professional-medal.png';
+import HardMedalImg from 'src/assets/hard-medal.png';
+import NoviceMedalImg from 'src/assets/novice-medal.png';
+import ExpertMedalImg from 'src/assets/expert-medal.png';
 
 import Objective from './Objective';
 

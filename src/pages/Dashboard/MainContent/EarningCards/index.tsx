@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiGroup, BiWallet, BiDollarCircle } from 'react-icons/bi';
 
-import InfoCard from '../../../../components/Card';
+import InfoCard from 'src/components/Card';
 
 import { Container } from './styles';
 

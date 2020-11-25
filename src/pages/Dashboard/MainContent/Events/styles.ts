@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import EventBannerImg from '../../../../assets/event-banner.png';
+import EventBannerImg from 'src/assets/event-banner.png';
 
 export const Container = styled.div`
   border: solid 2px #383a45;
